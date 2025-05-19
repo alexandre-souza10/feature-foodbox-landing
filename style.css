@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f3f3; /* Cinza leve */
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ff6600; /* Laranja forte */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #ffe0b2; /* Laranja claro ao passar o mouse */
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+              url('https://source.unsplash.com/1600x600/?healthy-kids-meals') center/cover no-repeat;
+  height: 100vh;
+  padding: 100px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.hero .btn {
+  background-color: #ff6600;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.hero .btn:hover {
+  background-color: #e65100;
+}
+
+/* Cards dos Planos */
+.plan-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card h5 {
+  color: #ff6600;
+}
+
+/* Depoimentos */
+.testimonial {
+  font-style: italic;
+  border-left: 5px solid #ff6600;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Contato */
+#contato {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+/* Botão "Voltar ao topo" */
+#btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 999;
+}
+
+#btn-top:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #ff6600;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffe0b2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
